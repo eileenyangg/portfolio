@@ -1,5 +1,5 @@
 body {
-    background: #f3e6ff;
+    background: #ddccff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     position: relative;
@@ -35,7 +35,7 @@ navigation section
     color: #fff;
     }
 .custom-navbar .nav li a {
-    color: #ccccff;
+    color: #000000;
     font-size: 14px;
     font-weight: 500;
     }
@@ -45,7 +45,7 @@ navigation section
 }
 .custom-navbar .nav > li > a:focus {
   background-color: transparent;
-  color: #ccccff;
+  color: #000000;
   outline: none;
 }
 .custom-navbar .nav li.active > a {
