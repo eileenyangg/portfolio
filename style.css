@@ -15,3 +15,59 @@ h1, h2, h3, h4 {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
+/* ==========================================================================
+navigation section
+========================================================================== */
+.custom-navbar {
+    background: #91C0DE;
+    margin-bottom: 0;
+}
+.custom-navbar .navbar-brand  {
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+}
+.custom-navbar .navbar-brand .navbar-toggle {
+    background: #000000;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+    }
+.custom-navbar .nav li a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    }
+.custom-navbar .nav li a:hover {
+  	background: transparent;
+   color: #eeeeee;
+}
+.custom-navbar .nav > li > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+}
+.custom-navbar .nav li.active > a {
+      color: #000000;
+    }
+.custom-navbar .navbar-toggle {
+        border: none;
+        padding-top: 10px;
+    }
+.custom-navbar .navbar-toggle .icon-bar {
+        background: #000000;
+        border-color: transparent;
+    }
+@media(min-width:768px){
+    .custom-navbar {
+            background: #91C0DE;
+            padding: 10px;
+            border-bottom: 0;
+            background: 0 0;
+         }
+    .custom-navbar.top-nav-collapse {
+            padding: 8px;
+            background: #91C0DE;
+        }
+}
