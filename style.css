@@ -6,9 +6,9 @@ body {
   }
 
 body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em
+  width: 600px;
+  margin: 0 auto; 
+}
 
 html, body {
      width: 100%;
